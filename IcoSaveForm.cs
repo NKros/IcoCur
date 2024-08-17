@@ -139,11 +139,11 @@ public class IcoSaveForm : Form
         clbFormats.Items.Add("48x48, 32-bit", false);
         clbFormats.Items.Add("48x48, 8-bit", false);
         clbFormats.Items.Add("32x32, 32-bit", true);
-        clbFormats.Items.Add("32x32, 8-bit", true);
+        clbFormats.Items.Add("32x32, 8-bit", false);
         clbFormats.Items.Add("24x24, 32-bit", false);
         clbFormats.Items.Add("24x24, 8-bit", false);
-        clbFormats.Items.Add("16x16, 32-bit", true);
-        clbFormats.Items.Add("16x16, 8-bit", true);
+        clbFormats.Items.Add("16x16, 32-bit", false);
+        clbFormats.Items.Add("16x16, 8-bit", false);
         g_Sizes.Add(new Size(256, 256));
         g_Sizes.Add(new Size(128, 128));
         g_Sizes.Add(new Size(128, 128));
